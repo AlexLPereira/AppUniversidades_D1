@@ -4,7 +4,7 @@
  *
  */
 
-package br.usjt.ads20.appuniversidadesd1;
+package br.usjt.ads20.appuniversidadesd1.Model;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -13,6 +13,11 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import br.usjt.ads20.appuniversidadesd1.Model.Universidade;
+import br.usjt.ads20.appuniversidadesd1.Model.Util;
+import br.usjt.ads20.appuniversidadesd1.R;
+import br.usjt.ads20.appuniversidadesd1.View.ViewHolder;
 
 public class UniversidadeAdaptador extends BaseAdapter {
     private Universidade[] universidades;

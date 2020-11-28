@@ -4,13 +4,12 @@
  *
  */
 
-package br.usjt.ads20.appuniversidadesd1;
+package br.usjt.ads20.appuniversidadesd1.View;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ProgressBar;
@@ -21,6 +20,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import br.usjt.ads20.appuniversidadesd1.Model.ListarUniversidadesActivity;
+import br.usjt.ads20.appuniversidadesd1.R;
+import br.usjt.ads20.appuniversidadesd1.Model.Universidade;
+import br.usjt.ads20.appuniversidadesd1.Model.UniversidadeNetwork;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -37,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Stetho.initializeWithDefaults(this);
+        /*Stetho.initializeWithDefaults(this);*/
 
         progressBar = findViewById(R.id.progressBarMainActivity);
         txtNome = (EditText) findViewById(R.id.busca_fila);

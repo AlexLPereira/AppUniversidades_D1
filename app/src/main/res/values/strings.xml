@@ -9,4 +9,5 @@
     <string name="erro_rede">Falha na Rede</string>
     <string name="botao_busca">Buscar</string>
     <string name="busca_Universidade">Nome da Universidade</string>
+    <string name="busca_heroi">busca_hero</string>
 </resources>

@@ -4,7 +4,7 @@
  *
  */
 
-package br.usjt.ads20.appuniversidadesd1;
+package br.usjt.ads20.appuniversidadesd1.View;
 
 import android.widget.ImageView;
 import android.widget.TextView;

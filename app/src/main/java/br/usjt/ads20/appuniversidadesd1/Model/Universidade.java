@@ -4,7 +4,7 @@
  *
  */
 
-package br.usjt.ads20.appuniversidadesd1;
+package br.usjt.ads20.appuniversidadesd1.Model;
 
 import java.io.Serializable;
 

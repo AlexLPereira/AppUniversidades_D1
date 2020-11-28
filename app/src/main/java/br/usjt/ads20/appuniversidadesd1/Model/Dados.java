@@ -4,12 +4,12 @@
  *
  */
 
-package br.usjt.ads20.appuniversidadesd1;
+package br.usjt.ads20.appuniversidadesd1.Model;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import br.usjt.ads20.appuniversidadesd1.Universidade;
+import br.usjt.ads20.appuniversidadesd1.Model.Universidade;
 
 public class Dados {
     private static ArrayList<Universidade> universidades;

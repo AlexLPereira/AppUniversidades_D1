@@ -4,7 +4,7 @@
  *
  */
 
-package br.usjt.ads20.appuniversidadesd1;
+package br.usjt.ads20.appuniversidadesd1.Model;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -21,8 +21,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 
 import br.usjt.ads20.appuniversidadesd1.R;
-import br.usjt.ads20.appuniversidadesd1.Universidade;
-
+import br.usjt.ads20.appuniversidadesd1.View.MainActivity;
 
 
 public class ListarUniversidadesActivity extends AppCompatActivity {

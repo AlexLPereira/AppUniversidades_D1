@@ -4,7 +4,7 @@
  *
  */
 
-package br.usjt.ads20.appuniversidadesd1;
+package br.usjt.ads20.appuniversidadesd1.Model;
 
 import android.util.Log;
 
@@ -15,7 +15,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import br.usjt.ads20.appuniversidadesd1.Universidade;
+import br.usjt.ads20.appuniversidadesd1.Model.Universidade;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;

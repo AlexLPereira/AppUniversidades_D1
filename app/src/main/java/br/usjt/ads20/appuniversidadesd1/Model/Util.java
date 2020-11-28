@@ -4,7 +4,7 @@
  *
  */
 
-package br.usjt.ads20.appuniversidadesd1;
+package br.usjt.ads20.appuniversidadesd1.Model;
 
 
 import android.content.Context;
@@ -12,6 +12,8 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+
+import br.usjt.ads20.appuniversidadesd1.R;
 
 public class Util {
     public static Bitmap criaAvatar(Context context, String txt) {
